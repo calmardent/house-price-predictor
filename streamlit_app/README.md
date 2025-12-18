@@ -7,4 +7,5 @@
   * Launch Command : `streamlit run app.py --server.address=0.0.0.0`
 
 
-  
+  Docker Image Build: docker image build -t streamlit:v1 .   
+  Docker Run: docker run -p 8501:8501 streamlit:v1
